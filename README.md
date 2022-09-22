@@ -20,7 +20,7 @@ Once you've ensured the required libraries are up-to-date, download the zip file
 
 $ cd \<ritsar_dir\>
 
-$ python setup.py install
+$ python3 setup.py install
 
 then...
 
