@@ -13,7 +13,7 @@ import matplotlib.pylab as plt
 import matplotlib.cm as cm
 
 
-path.append('/home/ivan/RITSAR/examples/dictionaries')
+path.append('./dictionaries')
 
 def write_in_file(mas, file_path):
     f = open(file_path, 'w')
