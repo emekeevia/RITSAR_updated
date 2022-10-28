@@ -18,7 +18,7 @@ Before installation, please make sure you have the following:
   
 To get started, first make sure your SciPy and NumPy libraries are up-to-date. Before first launch make sure that you change absolute way in demo file.
 
-Once you've ensured the required libraries are up-to-date, download the zip file and extract it to a directory that from here on will be referred to as \<ritsar_dir\>.  Open up a command line or terminal and type:
+Once you've ensured the required libraries are up-to-date, download the zip file and extract it to a directory that from here on will be referred to as \<ritsar_dir\>.  Open up a command line or terminal and type (**first version** to launch):
 
 $ cd \<ritsar_dir\>
 
@@ -36,7 +36,7 @@ In [1]: %run FFBPmp_demo
 
 In [2]: import matplotlib.pylab as plt; plt.show()
 
-or run any other demo. The second version to run demo:
+or run any other demo. **The second version** to run demo:
 
 $ cd \<ritsar_dir\>
 
@@ -45,6 +45,12 @@ $ python3 setup.py install --user
 $ cd ./examples
 
 $ python3 sim_demo.py
+
+**The third version** - edit start.sh to launch required file and type in command line in \<ritsar_dir\>:
+
+$ cd ./examples
+
+$ sh start.sh
 
 Current capabilities include modeling the phase history for a collection of point targets as well as processing phase histories using the polar format, omega-k, backprojection, digitally spotlighted backprojection, fast-factorized backprojection, and fast-factorized backprojection with multi-processing algorithms.  Autofocusing can also be performed using the Phase Gradient Algorithm.  The current version can interface with AFRL Gotcha and DIRSIG data as well as a data set provided by Sandia.
 
